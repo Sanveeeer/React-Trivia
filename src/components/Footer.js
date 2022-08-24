@@ -1,8 +1,8 @@
 import React from "react";
+import './Footer.css';
 
 const Footer = () => (
   <div className="footer">
-    <p>Api Documentation: <a href="url">https://opentdb.com/api_config.php</a></p>
   </div>
 );
 

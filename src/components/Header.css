@@ -1,0 +1,13 @@
+header {
+    padding-top: 10rem;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+  }
+  
+  h1, h2, h3 {
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+  
+  }
