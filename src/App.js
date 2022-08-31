@@ -1,14 +1,19 @@
 import './App.css';
-import Footer from './components/Footer';
-import image from './img/TriviaBg.png';
-import Header from './components/Header';
+import image from './img/TriviaBg2.png';
+import Home from './pages/Home';
+import Setup from './pages/Setup';
+import Quiz from './pages/Quiz';
+import {Routes, Route} from 'react-router-dom';
 
 
-function App() {
+function App() { 
   return (
-    <div className='App' style={{backgroundImage:`url(${image})`}}>  
-      <Header />
-      <Footer />
+    <div className='App' style={{backgroundImage:`url(${image})`}}> 
+    <Routes>
+      <Route path='/home' element={<Home/>}/>
+      <Route path='/setup' element={<Setup/>}/>
+      <Route path='/quiz' element={<Quiz/>}/>
+    </Routes> 
     </div>
   );
 }

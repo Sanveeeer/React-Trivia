@@ -1,12 +1,13 @@
 import './Header.css';
 
-  const header = () => (
+  const Header = () => (
     <div className="header">
-        <header>&lt;this.Quiz&gt;</header>
-        <h1>Frontend Trivia Quiz</h1>
-        <h2>Developed by S.Singh & E.Kos</h2>
-        <h3>Music by ...</h3>
+        <header>(this.quiz)</header>
+        <h1>Pit your wits against our frontend web dev 
+            quiz. Master and see if you’re good enough
+            to achieve a top score!
+        </h1>        
     </div>
   );
   
-  export default header;
+  export default Header;
