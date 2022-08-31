@@ -10,4 +10,5 @@ header {
     text-align: center;
     color: white;
     padding-top: 1rem; 
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.75);
   }
