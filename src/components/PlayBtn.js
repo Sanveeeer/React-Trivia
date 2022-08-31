@@ -6,7 +6,7 @@ function PlayBtn() {
   return (
     <>
       <Link to="/settings">
-        <button className="playBtn">Play</button>
+        <button className="playBtn">GO!</button>
       </Link>
     </>
   );
