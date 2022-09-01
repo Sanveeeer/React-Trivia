@@ -10,7 +10,7 @@ function App() {
   return (
     <div className='App' style={{backgroundImage:`url(${image})`}}> 
     <Routes>
-      <Route path='/home' element={<Home/>}/>
+      <Route path='/' element={<Home/>}/>
       <Route path='/setup' element={<Setup/>}/>
       <Route path='/quiz' element={<Quiz/>}/>
     </Routes> 

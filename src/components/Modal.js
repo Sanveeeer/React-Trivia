@@ -25,7 +25,7 @@ function Homemodal() {
           <p>(this.quiz) is a frontend web development trivia quiz developed with
           React JS software by San Singh and Ela Kos</p>
           <p>APIs and links:
-            https://opentdb.com/api_config.php</p>
+          https://avatars.dicebear.com/styles/bottts</p>
         </Modal.Body>
         <Modal.Footer className="modalFooter">© 2022</Modal.Footer>
       </Modal>
