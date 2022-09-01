@@ -97,7 +97,7 @@ function Quiz() {
           <Link to="/settings">
             <button className="backToSet">Settings</button>
           </Link>
-          <Link to="/home">
+          <Link to="/">
             <button className="backToHome">Home</button>
           </Link>
         </div>
