@@ -15,7 +15,7 @@ function Homemodal() {
         i
       </Button>
 
-      <Modal 
+      <Modal
       aria-labelledby="contained-modal-title-vcenter"
       centered show={show} onHide={handleClose}>
         <Modal.Header className="modalHeader" closeButton>

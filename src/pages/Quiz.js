@@ -56,7 +56,7 @@ function Quiz() {
       text: "Choose the correct HTML tag to make a text italic",
       options: [
         { id: 0, text: "<italic>", isCorrect: false },
-        { id: 1, text: "<it>", isCorrect: true },
+        { id: 1, text: "<it>", isCorrect: false },
         { id: 2, text: "<i>", isCorrect: true },
         { id: 3, text: "<il>", isCorrect: false },
       ],
@@ -83,7 +83,7 @@ function Quiz() {
 
   return (
     <div>
-      <h1>Good Luck</h1>
+      <h1>&nbsp;</h1>
 
       {showFinalResults ? (
         <div className="final-result">
