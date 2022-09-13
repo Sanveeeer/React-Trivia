@@ -5,7 +5,7 @@ import './PlayBtn.css'
 function PlayBtn() {
   return (
     <>
-      <Link to="/settings">
+      <Link to="/Setup">
         <button className="playBtn">GO!</button>
       </Link>
     </>
